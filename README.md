@@ -53,11 +53,11 @@ ______
 
 * a function that accepts a string of characters. It then returns an object with a tally of characters
 
-letterPositions.js
+[letterPositions.js](/letterPositions.js)
 
 * a function that accepts a string of characters. It then returns an object with an array for each character present
 
-findByKeyValue.js
+[findByKeyValue.js](/findKeyByValue.js)
 
 * a function an searches for a key on an object where its value matches a given value
 
