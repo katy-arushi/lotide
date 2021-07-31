@@ -61,11 +61,11 @@ ______
 
 * a function an searches for a key on an object where its value matches a given value
 
-eqObjects.js
+[eqObjects.js](/eqObjects.js)
 
 * a function which compares two objects to see if they are similar
 
-assertObjectsEqual.js
+[assertObjectsEqual.js](/assertObjectsEqual.js)
 
 * a function which takes two parameters, the actual object, and the expected object, and returns an assertion passed or failed
 
