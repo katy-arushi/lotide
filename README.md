@@ -69,7 +69,7 @@ ______
 
 * a function which takes two parameters, the actual object, and the expected object, and returns an assertion passed or failed
 
-map.js
+[map.js](/map.js)
 
 * this is a copy of the higher order map() method. map() creates a new array populated with results of a callback function on every element in a specified array
 
