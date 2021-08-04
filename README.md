@@ -76,3 +76,7 @@ ______
 [takeUntil.js](/takeUntil.js)
 
 * the function takeUntil() will collect items from a provided array until the callback function provided returns a truthy value
+
+[findKey.js](/findKey.js)
+
+* the function findKey takes in an object and a callback, and returns the first key for which the callback returns a truthy value. If no key is found, then it returns undefined.
