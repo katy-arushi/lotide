@@ -73,6 +73,6 @@ ______
 
 * this is a copy of the higher order map() method. map() creates a new array populated with results of a callback function on every element in a specified array
 
-takeUntil.js
+[takeUntil.js](/takeUntil.js)
 
 * the function takeUntil() will collect items from a provided array until the callback function provided returns a truthy value

@@ -6,9 +6,6 @@ const map = function(myArray, callback) {
   return results;
 }
 
-const words = ["ground", "control", "to", "major", "tom"];
-console.log(map(words, word => word[0]));
-
 // TEST FUNCTION
 function assertArraysEqual(list1, list2) {
   for (let i = 0; i < list1.length; i++) {
@@ -22,6 +19,7 @@ function assertArraysEqual(list1, list2) {
 }
 
 // TEST CASES
-
+const words = ["ground", "control", "to", "major", "tom"];
+console.log(map(words, word => word[0]));
 console.log(assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']))
 
