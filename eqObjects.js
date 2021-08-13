@@ -1,3 +1,5 @@
+const eqArrays = require('./eqArrays');
+
 function eqObjects(object1, object2) {
   const object1Array = Object.keys(object1)
   const object2Array = Object.keys(object2)
@@ -17,15 +19,3 @@ function eqObjects(object1, object2) {
   }
   return true;
 };
-
-function eqArrays(list1, list2) {
-  if (list1.length !== list2.length) {
-    return false
-  }
-  for (let i = 0; i < list1.length; i++) {
-    if (list1[i] !== list2[i]) {
-      return false;
-    }
-  }
-  return true
-}

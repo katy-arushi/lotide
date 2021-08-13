@@ -4,7 +4,7 @@ const takeUntil = function(array, callback) {
     if (!callback(item)) {
       results.push(item)
     } else {
-      return results
+      return results;
     }
   }
-}
+};

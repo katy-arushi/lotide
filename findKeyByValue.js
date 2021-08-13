@@ -1,8 +1,8 @@
-function findKeyByValue(myObject, value) {
+const findKeyByValue = function(myObject, value) {
   for (const property in myObject) {
     if (myObject[property] === value) {
-      return property
+      return property;
     }
   }
-  return undefined
-}
+  return undefined;
+};

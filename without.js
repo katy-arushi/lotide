@@ -1,4 +1,4 @@
-function without(sourceArray, itemsToRemove) {
+const without = function(sourceArray, itemsToRemove) {
   let newArray = []
   for (let i = 0; i < sourceArray.length; i++) {
     let addItem = true
@@ -8,8 +8,8 @@ function without(sourceArray, itemsToRemove) {
       }
     }
     if (addItem) {
-      newArray.push(sourceArray[i])
+      newArray.push(sourceArray[i]);
     }
   }
-  return newArray
-}
+  return newArray;
+};

@@ -1,4 +1,4 @@
-function countLetters(myString) {
+const countLetters = function(myString) {
   const results = {};
   for (const char of myString) {
     if (char !== " ") {
