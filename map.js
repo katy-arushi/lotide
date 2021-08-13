@@ -6,8 +6,4 @@ const map = function(myArray, callback) {
   return results;
 };
 
-// TEST CASES
-const words = ["ground", "control", "to", "major", "tom"];
-console.log(map(words, word => word[0]));
-console.log(assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']))
-
+module.exports = map;
