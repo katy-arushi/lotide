@@ -1,11 +1,15 @@
-function eqArrays(list1, list2) {
+const assertEqual = require('./assertEqual');
+
+const eqArrays = function(list1, list2) {
   if (list1.length !== list2.length) {
-    return false
+    return false;
   }
   for (let i = 0; i < list1.length; i++) {
     if (list1[i] !== list2[i]) {
       return false;
     }
   }
-  return true
-}
+  return true;
+};
+
+module.exports = eqArrays;

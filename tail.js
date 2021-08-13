@@ -1,6 +1,6 @@
 const assertEqual = require('./assertEqual');
 
-function tail(originalArray) {
+const tail = function(originalArray) {
   if (originalArray.length === 0 || originalArray.length === 1) {
     return [];
   } else {
