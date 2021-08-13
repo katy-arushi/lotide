@@ -1,4 +1,4 @@
-function head(myArray) {
+const head = function(myArray) {
   return myArray[0];
 };
 
