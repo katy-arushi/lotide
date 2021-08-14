@@ -6,16 +6,14 @@
 
 const flatten = function(sourceArray) {
   let flatArray = [];
-  for (let i = 0; i < sourceArray.length; i++) {
-    if (Array.isArray(sourceArray[i])) {
-      for (let j = 0; j < sourceArray[i].length; j++) {
-        flatArray.push(sourceArray[i][j]);
-      }
+  sourceArray.forEach((item) => {
+    if (Array.isArray(item)) {
+      flatArray = flatArray.concat(flatten(item));
     } else {
-      flatArray.push(sourceArray[i]);
+      flatArray.push(item);
     }
-  }
-  return flatArray;
+  });
+  return flatArray
 };
 
 module.exports = flatten;
