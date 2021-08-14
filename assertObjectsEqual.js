@@ -21,3 +21,5 @@ const assertObjectsEqual = function(object1, object2) {
   }
   console.log((`✅✅✅ Assertion Passed: ${inspect(object1)} === ${inspect(object2)}`));
 };
+
+module.exports = assertObjectsEqual;

@@ -6,3 +6,5 @@ const findKeyByValue = function(myObject, value) {
   }
   return undefined;
 };
+
+module.exports = findKeyByValue;

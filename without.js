@@ -13,3 +13,5 @@ const without = function(sourceArray, itemsToRemove) {
   }
   return newArray;
 };
+
+module.exports = without;
