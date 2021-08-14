@@ -1,8 +1,9 @@
 {
-  "name": "lotide",
+  "name": "@akatyal/lotide",
   "version": "1.0.0",
-  "description": "A [Lighthouse Labs](https://www.lighthouselabs.ca/) project by [Arushi Katyal](https://github.com/katy-arushi).",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library."
+  ,
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,10 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/katy-arushi/lotide.git"
   },
-  "author": "",
+  "author": "Arushi Katyal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/katy-arushi/lotide/issues"
+    "url": "https://github.com/katy-arushi/lotide/issues",
+    "email": "katy.arushi@gmail.com"
   },
   "homepage": "https://github.com/katy-arushi/lotide#readme",
   "devDependencies": {
