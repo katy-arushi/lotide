@@ -13,7 +13,7 @@ const flatten = function(sourceArray) {
       flatArray.push(item);
     }
   });
-  return flatArray
+  return flatArray;
 };
 
 module.exports = flatten;
