@@ -4,7 +4,7 @@ const tail = function(originalArray) {
   } else {
     let newArray = originalArray.slice(1);
     return newArray;
-  };
+  }
 };
 
 module.exports = tail;

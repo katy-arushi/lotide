@@ -2,8 +2,8 @@ const eqArrays = require('./eqArrays');
 
 const assertObjectsEqual = function(object1, object2) {
   const inspect = require('util').inspect;
-  const object1Array = Object.keys(object1)
-  const object2Array = Object.keys(object2)
+  const object1Array = Object.keys(object1);
+  const object2Array = Object.keys(object2);
   if (object1Array.length !== object2Array.length) {
     console.log((`🛑🛑🛑 Assertion Failed: ${inspect(object1)} !== ${inspect(object2)}`));
 

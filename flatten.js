@@ -1,5 +1,5 @@
 const flatten = function(sourceArray) {
-  let flatArray = []
+  let flatArray = [];
   for (let i = 0; i < sourceArray.length; i++) {
     if (Array.isArray(sourceArray[i])) {
       for (let j = 0; j < sourceArray[i].length; j++) {
