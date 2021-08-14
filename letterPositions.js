@@ -1,3 +1,9 @@
+/**
+ * a function that accepts a string of characters. It then returns an object with an array for each character present
+ * @param {string} sentence
+ * @returns {object} results
+ */
+
 const letterPositions = function(sentence) {
   const results = {};
   for (let i = 0; i < sentence.length; i++) {

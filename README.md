@@ -27,11 +27,11 @@ This project was created and published by me as part of my learnings at [Lightho
 ## Documentation
 [assertArraysEqual.js](/assertArraysEqual.js)
 
-* a function which utilizes aqArrays.js to compare two arrays for an exact match, then prints to console a pass or fail assertion
+ * a function which utilizes eqArrays.js to compare two arrays for an exact match, then prints a pass or fail assertion
 
 [assertEqual.js](/assertEqual.js)
 
-* A function which accepts two primitive data types as arguments: actual outcome and expected result. The function then prints to console whether the outcome matches the expected result with an assertion statement
+* a function which accepts two primitive data types as arguments: actual outcome and expected result. The function then prints to console whether the outcome matches the expected result with an assertion statement
 
 [assertObjectsEqual.js](/assertObjectsEqual.js)
 
@@ -47,19 +47,19 @@ This project was created and published by me as part of my learnings at [Lightho
 
 [eqArrays.js](/eqArrays.js)
 
-* a function which compares two arrays to determine if they are similar in elements and length
+ * a function which compares two arrays and returns true or false, based on a perfect match.
 
 [eqObjects.js](/eqObjects.js)
 
-* a function which compares two objects to see if they are similar
+ * a function which compares two objects to see if both objects have identical keys with identical values.
 
 [findKey.js](/findKey.js)
 
-* the function findKey takes in an object and a callback, and returns the first key for which the callback returns a truthy value. If no key is found, then it returns undefined.
+ * a function that takes in an object and a callback, and returns the first key for which the callback returns a truthy value. If no key is found, then it returns undefined.
 
 [findByKeyValue.js](/findKeyByValue.js)
 
-* a function an searches for a key on an object where its value matches a given value
+* a function that searches for a key on an object where its value matches a given value
 
 [flatten.js](/flatten.js)
 
@@ -75,11 +75,11 @@ This project was created and published by me as part of my learnings at [Lightho
 
 [map.js](/map.js)
 
-* this is a copy of the higher order map() method. map() creates a new array populated with results of a callback function on every element in a specified array
+* a function that creates a new array populated with results of a callback function on every element in a specified array
 
 [middle.js](/middle.js)
 
-* A function that accepts an array, and returns the middle index value(s) in a new array
+* a function that accepts an array, and returns the middle index value(s) in a new array
 
 [tail.js](tail.js)
 
@@ -87,7 +87,7 @@ This project was created and published by me as part of my learnings at [Lightho
 
 [takeUntil.js](/takeUntil.js)
 
-* the function takeUntil() will collect items from a provided array until the callback function provided returns a truthy value
+* a function that will collect items from a provided array until the callback function provided returns a truthy value
 
 [without.js](/without.js)
 

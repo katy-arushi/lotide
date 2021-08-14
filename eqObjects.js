@@ -1,3 +1,10 @@
+/**
+ * a function which compares two objects to see if both objects have identical keys with identical values.
+ * @param {object} object1
+ * @param {object} object2
+ * @returns {boolean}
+ */
+
 const eqArrays = require('./eqArrays');
 
 const eqObjects = function(object1, object2) {

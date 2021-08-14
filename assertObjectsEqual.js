@@ -1,3 +1,9 @@
+/**
+ * a function which takes two parameters, the actual object, and the expected object, and returns an assertion passed or failed
+ * @param {object} object1
+ * @param {object} object2
+ */
+
 const eqArrays = require('./eqArrays');
 
 const assertObjectsEqual = function(object1, object2) {

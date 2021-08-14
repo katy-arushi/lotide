@@ -1,3 +1,9 @@
+/**
+ * a function that accepts a nested array with one level of nesting as an argument, and returns a single "flattened" array
+ * @param {array} sourceArray
+ * @returns {array} flatArray
+ */
+
 const flatten = function(sourceArray) {
   let flatArray = [];
   for (let i = 0; i < sourceArray.length; i++) {
