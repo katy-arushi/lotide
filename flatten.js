@@ -1,5 +1,5 @@
 /**
- * a function that accepts a nested array with one level of nesting as an argument, and returns a single "flattened" array
+ * a function that accepts a nested array with infinite levels of nesting as an argument, and returns a single "flattened" array
  * @param {array} sourceArray
  * @returns {array} flatArray
  */
