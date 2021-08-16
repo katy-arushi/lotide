@@ -1,3 +1,10 @@
+/**
+ * a function that accepts an array of names, and an object of names you wish to make a tally of. Returns a new object with a name count
+ * @param {array} allItems 
+ * @param {object} itemsToCount 
+ * @returns {object} results
+ */
+
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
   for (const item of allItems) {
