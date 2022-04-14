@@ -2,6 +2,8 @@
 
 A mini clone of the [Lodash](https://lodash.com) library.
 
+Published [here](https://www.npmjs.com/package/@akatyal/lotide) on NPM.
+
 A [Lighthouse Labs](https://www.lighthouselabs.ca/) project by [Arushi Katyal](https://github.com/katy-arushi).
 
 ## Purpose
