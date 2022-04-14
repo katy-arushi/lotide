@@ -25,7 +25,7 @@ This project was created and published by me as part of my learnings at [Lightho
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
 
 ## Documentation
-[assertArraysEqual.js](/assertArraysEqual.js)
+[assertArraysEqual.js](/functions/assertArraysEqual.js)
 
  * a function which utilizes eqArrays.js to compare two arrays for an exact match, then prints a pass or fail assertion
 
